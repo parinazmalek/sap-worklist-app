@@ -1,0 +1,27 @@
+{
+    "name": "sap.m.tutorial.worklist.01",
+    "version": "1.0.0",
+    "author": "SAP SE",
+    "description": "Sample: Worklist App - Step 1 - Creating the Initial App",
+    "keywords": [
+        "ui5",
+        "openui5",
+        "sapui5"
+    ],
+    "main": "webapp/index.html",
+    "dependencies": {},
+    "devDependencies": {
+        "@ui5/cli": "^2.12.0",
+        "@sap/ux-ui5-tooling": "1"
+    },
+    "scripts": {
+        "start": "fiori run --open 'index.html'",
+        "start2": "ui5 serve --config=ui5.yaml  --open index.html"
+    },
+    "ui5": {
+        "dependencies": [
+            "@sap/ux-ui5-tooling"
+        ]
+    },
+    "sapuxLayer": "CUSTOMER_BASE"
+}
