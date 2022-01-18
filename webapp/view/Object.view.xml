@@ -19,7 +19,7 @@
 			<ObjectNumber
 				number="{
 					path: 'UnitsInStock',
-					formatter: '.formatter.numberUnit'
+					formatter: '.formatter2.numberUnit'
 				}"
 			/>
 		</semantic:headerContent>

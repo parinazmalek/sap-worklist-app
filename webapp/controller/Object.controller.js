@@ -7,13 +7,13 @@ sap.ui.define([
 	BaseController,
 	JSONModel,
 	History,
-	formatter
+	formatter1
 ) {
 	"use strict";
 
 	return BaseController.extend("mycompany.myapp.MyWorklistApp.controller.Object", {
 
-		formatter: formatter,
+		formatter2: formatter1,
 
 		/* =========================================================== */
 		/* lifecycle methods                                           */
