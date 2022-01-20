@@ -18,7 +18,7 @@ sap.ui.define([
 			if (!sValue) {
 				return "";
 			}
-			return parseFloat(sValue).toFixed(3);
+			return parseFloat(sValue).toFixed(2);
 		},
 
 		/**
